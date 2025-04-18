@@ -3,26 +3,26 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. The erratic motion of non-motile bacteria in an aqueous medium is due to--",
+      "question": "1. The data in the life table represents:",
       "answers": {
-        "a": "Gliding movement",
-        "b": "Turbulence",
-        "c": "Brownian movement",
-        "d": "None of the above"
+        "a": "Age specific mortality",
+        "b": "Survivorship",
+        "c": "The continuous rate of growth",
+        "d": "Age specific mortality and survivorship"
       },
  
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },   
 
 
     {
-      "question": "2. The term 'Peritrichous flagella' means",
+      "question": "2. The method used to determine which part of the life history has the greatest effect on the population growth rate is",
       "answers": {
-        "a": "Single flagella",
-        "b": "Flagella all around the body",
-        "c": "Flagella on one end",
-        "d": "Short flagella"
+        "a": "Survivorship curve",
+        "b": "Sensitivity analysis",
+        "c": "Life table",
+        "d": "Leslie matrix"
       },
       
       "correctAnswer": "b",
@@ -31,12 +31,12 @@
 
     
     {
-      "question": "3. The red colouration of medium by the addition of KovacÃ¢â‚¬â„¢s reagent is due to the action of the enzyme____________ on ______",
+      "question": "3. The largest eigenvalue of Leslie matrices will gives the",
       "answers": {
-        "a": "Cysteine desulfurase , cysteine",
-        "b": "Citrase, citrate",
-        "c": "Lysine decarboxylase, lysine",
-        "d": "Tryptophanase, tryptophan"
+        "a": "Fecundity value",
+        "b": "Net replacement rate",
+        "c": "Generation time",
+        "d": "Geometric growth rate"
       },
      
       "correctAnswer": "d",
