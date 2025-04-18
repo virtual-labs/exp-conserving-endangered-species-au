@@ -1,0 +1,102 @@
+
+/home/runner/work/exp-conserving-endangered-species-au/exp-conserving-endangered-species-au/experiment/simulation/js/simcontrols.js
+    11:5   warning  'nulltable' is defined but never used               no-unused-vars
+    24:5   warning  'xVal' is assigned a value but never used           no-unused-vars
+    25:5   warning  'xValue' is assigned a value but never used         no-unused-vars
+    42:5   warning  'dynLesle' is assigned a value but never used       no-unused-vars
+    43:5   warning  'tableRowCount' is assigned a value but never used  no-unused-vars
+    59:1   warning  '$' is not defined                                  no-undef
+    71:8   warning  '$' is not defined                                  no-undef
+   132:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   135:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   145:3   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   156:10  warning  'checkSelected' is defined but never used           no-unused-vars
+   208:10  warning  'removeTable' is defined but never used             no-unused-vars
+   216:10  warning  'tabClicked' is defined but never used              no-unused-vars
+   246:10  warning  'resetFN' is defined but never used                 no-unused-vars
+   252:10  warning  'showTooltip' is defined but never used             no-unused-vars
+   260:8   warning  '$' is not defined                                  no-undef
+   280:8   warning  '$' is not defined                                  no-undef
+   300:8   warning  '$' is not defined                                  no-undef
+   333:8   warning  '$' is not defined                                  no-undef
+   385:10  warning  'hideTooltip' is defined but never used             no-unused-vars
+   398:11  warning  'i' is already defined                              no-redeclare
+   403:11  warning  'i' is already defined                              no-redeclare
+   408:11  warning  'i' is already defined                              no-redeclare
+   414:11  warning  'i' is already defined                              no-redeclare
+   513:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   559:10  warning  'createLesle' is defined but never used             no-unused-vars
+   626:10  warning  'i' is already defined                              no-redeclare
+   634:4   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   676:10  warning  'i' is already defined                              no-redeclare
+   683:4   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   699:10  warning  'rateOfDecline' is defined but never used           no-unused-vars
+   703:21  warning  'displayPage' is not defined                        no-undef
+   744:10  warning  'addRow' is defined but never used                  no-unused-vars
+   764:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   769:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   770:1   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   774:10  warning  'validate' is defined but never used                no-unused-vars
+   786:10  warning  'restricDigit1' is defined but never used           no-unused-vars
+   801:10  warning  'restricDigit2' is defined but never used           no-unused-vars
+   816:10  warning  'dotRestrict' is defined but never used             no-unused-vars
+   837:10  warning  'storeValue' is defined but never used              no-unused-vars
+   840:6   warning  'rowCount' is assigned a value but never used       no-unused-vars
+   841:1   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   842:1   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   842:7   warning  'iX' is not defined                                 no-undef
+   842:12  warning  'iX' is not defined                                 no-undef
+   842:32  warning  'iX' is not defined                                 no-undef
+   843:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   843:17  warning  'iX' is not defined                                 no-undef
+   844:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   844:12  warning  'iX' is not defined                                 no-undef
+   844:26  warning  'iX' is not defined                                 no-undef
+   845:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   846:21  warning  'iX' is not defined                                 no-undef
+   847:11  warning  'iX' is not defined                                 no-undef
+   847:27  warning  'iX' is not defined                                 no-undef
+   851:1   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   852:1   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   855:11  warning  'deleteRow' is defined but never used               no-unused-vars
+   856:1   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   897:10  warning  'prayDynamic' is defined but never used             no-unused-vars
+   904:3   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   909:19  warning  'displayPage' is not defined                        no-undef
+   916:20  warning  'displayPage' is not defined                        no-undef
+   926:10  warning  'microParasite' is defined but never used           no-unused-vars
+   928:3   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   937:19  warning  'displayPage' is not defined                        no-undef
+   940:19  warning  'displayPage' is not defined                        no-undef
+   951:10  warning  'hostDynamic' is defined but never used             no-unused-vars
+   953:3   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   962:19  warning  'displayPage' is not defined                        no-undef
+   965:19  warning  'displayPage' is not defined                        no-undef
+   984:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   992:10  warning  'createGeometricRate' is defined but never used     no-unused-vars
+   998:4   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+   998:22  warning  'displayPage' is not defined                        no-undef
+  1002:19  warning  'displayPage' is not defined                        no-undef
+  1021:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+  1024:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+  1025:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+  1027:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+  1051:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+  1054:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+  1057:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+  1060:2   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+  1107:3   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+  1122:1   warning  Mixed spaces and tabs                               no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-conserving-endangered-species-au/exp-conserving-endangered-species-au/experiment/simulation/js/tabs.js
+  33:10  warning  'displayPage' is defined but never used  no-unused-vars
+  34:3   warning  'tabClicked' is not defined              no-undef
+
+/home/runner/work/exp-conserving-endangered-species-au/exp-conserving-endangered-species-au/experiment/template/bower_components/angular-fullscreen/angular-fullscreen.js
+    9:14  warning  'isKeyboardAvailbleOnFullScreen' is assigned a value but never used  no-unused-vars
+  104:50  warning  'ev' is defined but never used                                       no-unused-vars
+  114:40  warning  'define' is not defined                                              no-undef
+  115:7   warning  'define' is not defined                                              no-undef
+
+✖ 93 problems (0 errors, 93 warnings)
+
