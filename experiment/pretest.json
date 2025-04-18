@@ -1,39 +1,47 @@
+
 {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. The data in the life table represents:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Age specific mortality",
+        "b": "Survivorship",
+        "c": "The continuous rate of growth",
+        "d": "Age specific mortality and survivorship"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+ 
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. The method used to determine which part of the life history has the greatest effect on the population growth rate is",
+      "answers": {
+        "a": "Survivorship curve",
+        "b": "Sensitivity analysis",
+        "c": "Life table",
+        "d": "Leslie matrix"
       },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
+
+    
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3. The largest eigenvalue of Leslie matrices will gives the",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Fecundity value",
+        "b": "Net replacement rate",
+        "c": "Generation time",
+        "d": "Geometric growth rate"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+     
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
-}
+}	 
+	 
