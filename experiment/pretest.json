@@ -1,39 +1,47 @@
+
 {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. The erratic motion of non-motile bacteria in an aqueous medium is due to--",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Gliding movement",
+        "b": "Turbulence",
+        "c": "Brownian movement",
+        "d": "None of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+ 
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. The term 'Peritrichous flagella' means",
+      "answers": {
+        "a": "Single flagella",
+        "b": "Flagella all around the body",
+        "c": "Flagella on one end",
+        "d": "Short flagella"
       },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
+
+    
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3. The red colouration of medium by the addition of KovacÃ¢â‚¬â„¢s reagent is due to the action of the enzyme____________ on ______",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Cysteine desulfurase , cysteine",
+        "b": "Citrase, citrate",
+        "c": "Lysine decarboxylase, lysine",
+        "d": "Tryptophanase, tryptophan"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+     
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
-}
+}	 
+	 
