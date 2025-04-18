@@ -1,39 +1,47 @@
+
 {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. The initial step in a sensitivity analysis is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "calculation of R0",
+        "b": "Estimation of rate of growth",
+        "c": "Construction of a Leslie matrix",
+        "d": "Calculation of rate of decline"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+ 
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. The largest eigenvalue of Leslie matrices will gives the",
+      "answers": {
+        "a": "Fecundity value",
+        "b": "Net replacement rate",
+        "c": "Generation time",
+        "d": "Geometric growth rate"
       },
-      "correctAnswer": "a",
+     
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
+
+    
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3. The variable nx in the life table denotes",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Age class",
+        "b": "Average number of female offspring",
+        "c": "Number of survivors in each age class",
+        "d": "Fecundity value"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
-}
+}	 
+	 
