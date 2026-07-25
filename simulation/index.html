@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Conserving an Endangered Species — Simulation</title>
+<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<div class="card" id="simbox"><div class="simbar"><span class="simbar-logo" aria-hidden="true"><img src="images\logo.svg" alt="Amrita Vishwa Vidyapeetham"></span><h1 class="simbar-title">Conserving an Endangered Species</h1><button class="fs-btn" id="fsBtn" onclick="toggleFS()" title="Toggle full screen" aria-label="Toggle full screen">⛶</button></div>
+      <div class="sim">
+        <div class="controls">
+          <div class="field"><label>Choose a species</label>
+            <label class="spopt sel"><input type="radio" name="sp" value="dall" checked onchange="selSpecies(this)"> Dall mountain sheep</label>
+            <label class="spopt"><input type="radio" name="sp" value="thrush" onchange="selSpecies(this)"> Song thrush</label>
+            <label class="spopt"><input type="radio" name="sp" value="glandula" onchange="selSpecies(this)"> Barnacle (B. glandula)</label>
+            <label class="spopt"><input type="radio" name="sp" value="robin" onchange="selSpecies(this)"> American robin</label>
+            <label class="spopt"><input type="radio" name="sp" value="user" onchange="selSpecies(this)"> Build your own table</label>
+          </div>
+          <div id="userEditor" style="display:none">
+            <label style="font-weight:600;font-size:.85rem">Custom life table</label>
+            <div class="tbl-scroll"><table class="data" id="userTable"><thead><tr><th>x</th><th>nₓ</th><th>mₓ</th><th>cause</th><th></th></tr></thead><tbody></tbody></table></div>
+            <div class="btnrow"><button class="btn btn-ghost btn-sm" onclick="addRow()">＋ Row</button></div>
+          </div>
+          <div class="btnrow">
+            <button class="btn btn-primary" onclick="compute()">▶ Compute</button>
+            <button class="btn btn-ghost" onclick="resetSim()">↺ Reset</button>
+          </div>
+          <div class="dl-label">Download</div>
+<div class="btnrow">
+            <button class="btn btn-accent" onclick="downloadPNG()">⤓ PNG</button>
+            <button class="btn btn-accent" onclick="downloadCSV()">⤓ CSV</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="plotwrap">
+            <div class="plot-title" id="spTitle">Survivorship curve</div>
+            <canvas class="chart" id="chart" width="720" height="360"></canvas>
+            <div class="legend" id="legend"></div>
+          </div>
+          <div class="plotwrap">
+            <div class="plot-title">Population metrics</div>
+            <div class="metrics" id="metrics"></div>
+            <div class="insight" id="insight" style="display:none"></div>
+          </div>
+          <div class="plotwrap">
+            <div class="plot-title">Life table</div>
+            <div class="tbl-scroll" id="lifeTable"></div>
+          </div>
+          <div class="plotwrap">
+            <div class="plot-title">Leslie matrix (top row = fertility Fₓ, sub-diagonal = survival pₓ)</div>
+            <div class="matrix" id="leslie"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="toast" id="toast"></div>
+<script src="./js/main.js"></script>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>

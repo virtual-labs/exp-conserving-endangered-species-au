@@ -1,0 +1,47 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The data in the life table represents:",
+      "answers": {
+        "a": "Age specific mortality",
+        "b": "Survivorship",
+        "c": "The continuous rate of growth",
+        "d": "Age specific mortality and survivorship"
+      },
+ 
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. The method used to determine which part of the life history has the greatest effect on the population growth rate is",
+      "answers": {
+        "a": "Survivorship curve",
+        "b": "Sensitivity analysis",
+        "c": "Life table",
+        "d": "Leslie matrix"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    
+    {
+      "question": "3. The largest eigenvalue of Leslie matrices will gives the",
+      "answers": {
+        "a": "Fecundity value",
+        "b": "Net replacement rate",
+        "c": "Generation time",
+        "d": "Geometric growth rate"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}	 
+	 
