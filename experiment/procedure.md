@@ -2,7 +2,9 @@
 
 1.	User can open the simulator window. The simulator window provides a panel including a list of predefined species along with an option to create a custom life table. Users can select a species, perform the demographic analysis using the Compute button. The interface also includes controls button to reset the simulation and options to download the results in PNG or CSV format. Upon computation, the simulator displays the survivorship curve, population metrics, life table, and Leslie matrix, enabling the user to analyse the population dynamics of the selected species.
 
-<img src="images/12.jpg" title="" />
+<p align="center">
+<img src="images/p1.png" title="" />
+</p>
 
 &nbsp;
 
@@ -12,6 +14,11 @@
 &nbsp;
 
 3. For example, if user choose Dall Mountain sheep and click on the compute button to generate the demographic analysis for the species. 
+
+<p align="center">
+<img src="images/p2.png" title="" />
+</p>
+
 
 &nbsp;
 
@@ -24,10 +31,18 @@
 
 A life table is a fundamental demographic tool used to summarize survival and reproductive characteristics across different age classes within a population. Parameters such as survivorship (lₓ), survival probability (Pₓ), and fecundity (mₓ) are used to estimate population growth rates, calculate generation time, and construct Leslie population projection matrices. These analyses support ecological research and conservation decision-making.
 
+<p align="center">
+<img src="images/p3.png" title="" />
+</p>
+
 
 &nbsp;
 
 6. After the demographic analysis is completed, the Leslie Matrix is generated to represent the age-structured population model for the selected species. The matrix summarizes the age-specific fertility and survival parameters derived from the life table and provides the basis for projecting future population dynamics. The Leslie matrix is a discrete, age-structured population projection model widely used in population ecology. It incorporates age-specific fertility (Fₓ) in the first row and survival probabilities (Pₓ) in the sub-diagonal. By multiplying the Leslie matrix with a population vector, the population size and age structure can be projected across successive generations. This approach is widely applied in wildlife management, conservation biology, and population viability analysis.
+
+<p align="center">
+<img src="images/p4.png" title="" />
+</p>
 
 
 &nbsp;
